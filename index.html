@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rape Cases Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-6ObqHMkC_rvTxDF5xre-wQpBaY2lwF7ik4sksOuIubZvlrsbc2x4bhZohUQvdRoxiRdUsgj9aXtniEbLObdPa6DWD84jLTAOEWHOOCWOddGLfwV-9deDQ02QjcN-w3jmvE24P6RFy8DDHHcRnBM9QHAfwbWScwjdOwxCf_uHIKbo0mBHJYenulNm2OSz/s320/Loading.gif" alt="Loading">
+        <p>Please wait. Loading Resources...</p>
+    </div>
+
+    <!-- Top Bar -->
+    <header>
+        <button id="addData"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfg_L4Ron-MnoH17PatjnppfRPpWS6j9liU4DHhUP6qEoJZsQ/viewform?usp=sharing" target="_blank">ধর্ষণের তথ্য দিন</a></button>
+      <a href="https://piprabahini.blogspot.com"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb6t_o4O0zJsjuYHSk7gbNP5_5pCWG8k7BKgR6ByFykiTNiDhCw43GJgYht6Su4GDphV5R57ayIox8kTbkWbFlp4-0VPWhdxTicalEXA7jFA9aSXoQH3wJCeDyr9HFZy19PzqN18HzSWGC5yQzL_KWPbzUQYAJU6CutGCOrBAFJaYkPRQbqj1dRCFeNdI/s1495/Picsart_25-03-15_17-17-40-659_optimized.png" alt="Logo" id="logo"> </a>
+        <div class="admin-contact">
+            <button id="adminAdd"><a href="https://piprabahini.blogspot.com/p/join.html" target="_blank">+</a></button>
+            <button id="contact">
+                <a href="mailto:piprabahini@gmail.com" target="_blank">
+                    <img src="email_ic.png" alt="Email Icon" style="height: 24px;">
+                </a>
+            </button>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro">
+        <p id="dynamic-text" style="color: white; ">আপনার নিজের বোন, নিজের মেয়ে , এমনকি নিজের মায়ের নিরাপত্তার নিশ্চয়তা কোথায়? 
+আসুন যতটুকু সম্ভব সতর্ক হোন। যতদিন না বিচার হচ্ছে, আমরা কোনো ঘটনা এড়িয়ে যেতে দেব না। ইনশাআল্লাহ।</p>
+        <button id="submitData"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfg_L4Ron-MnoH17PatjnppfRPpWS6j9liU4DHhUP6qEoJZsQ/viewform?usp=sharing" target="_blank">ধর্ষণের তথ্য দিন</a></button>
+        <button id="join"><a href="https://piprabahini.blogspot.com/p/join.html" target="_blank">যুক্ত হন/সাহায্য করুন</a> </button>
+        <div id="summary">
+            <button id="totalCriminals">আমাদের লিস্টে মোট ধর্ষক: 0</button>
+            <button id="attempts">ধর্ষণের চেষ্টা: 0</button>
+            <button id="unresolved">যতগুলো বিচার হয়নি: 0</button>
+        </div>
+    </section>
+
+    <!-- Search and Filters -->
+    <h2 style="color: white; text-align: center; ">ধর্ষক ও ধর্ষিতাদের তালিকা</h2>
+    <input type="text" id="search" placeholder="অনুসন্ধান করুন...">
+    <div id="filters">
+        <button data-filter="ফাঁসি হয়নি">ফাঁসি হয়নি</button>
+        <button data-filter="ফাঁসি হয়েছে">ফাঁসি হয়েছে</button>
+        <button data-filter="ধর্ষণের চেষ্টা">ধর্ষণের চেষ্টা</button>
+        <button data-filter="শিশু">শিশু</button>
+    </div>
+
+    <!-- Main Content -->
+    <section id="cases"></section>
+    <button id="loadMore">Next</button>
+
+    <!-- Footer -->
+    <footer>
+        <a href="https://piprabahini.blogspot.com/p/faq.html">FAQ</a>
+        <a href="https://piprabahini.blogspot.com/p/contact.html">Contact</a>
+        <a href="https://piprabahini.blogspot.com/p/about.html">About</a>
+        <br>
+        <p>© Powered By <a style="color:red" href="https://piprabahini.blogspot.com">Piprabahini</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
